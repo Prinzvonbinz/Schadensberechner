@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minecraft Schadenrechner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Minecraft Schadenrechner</h1>
+
+    <section>
+      <h2>🔺 Angreifer</h2>
+      <label>Typ:
+        <select id="attackerType">
+          <option>Spieler</option>
+          <option>Mob</option>
+        </select>
+      </label>
+      <div id="attackerOptions"></div>
+    </section>
+
+    <section>
+      <h2>🛡️ Verteidiger</h2>
+      <label>Typ:
+        <select id="defenderType">
+          <option>Spieler</option>
+          <option>Mob</option>
+        </select>
+      </label>
+      <div id="defenderOptions"></div>
+    </section>
+
+    <button id="calculateBtn">Berechnen</button>
+
+    <section id="result" class="resultBox hidden">
+      <h2>📊 Ergebnis</h2>
+      <p id="resultText"></p>
+    </section>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
