@@ -388,7 +388,7 @@ function calculateDamage() {
 `Angreifer: ${attackerMobName}
 - Waffe: ${attackerWeaponName} (+${weaponEnchantments[attackerWeaponEnchant]} Schaden)
 - Trank-Effekt: ${attackerPotionName}
-- Angriffsschaden (nach Verzauberungen und Trank): ${attackerBaseDamage.toFixed(2)}
+- Angriffsschade insgesamt: ${attackerBaseDamage.toFixed(2)}
 
 Verteidiger: ${defenderMobName}
 - Rüstung: ${defenderArmorName} (+${armorEnchantments[defenderArmorEnchant]} Rüstungspunkte)
