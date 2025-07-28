@@ -4,13 +4,11 @@ body {
   margin: 0;
   background: #1d1f21;
   color: #c1c6c8;
-  font-family: 'Press Start 2P', cursive, monospace;
+  font-family: sans-serif;
   text-align: center;
   padding: 10px;
   user-select: none;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .container {
   max-width: 600px;
